@@ -38,6 +38,8 @@ Povolení portu
 
 ```sh
 iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+iptables -A INPUT -s ip/mask -p tcp --dport port(třeba 22) -j ACCEPT
+
 ```
 
 Odebrání pravidel

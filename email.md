@@ -67,6 +67,12 @@ home_mailbox = Maildir/
 mailbox_command =
 ```
 
+Aliasy
+```
+# /etc/aliases
+newaliases
+```
+
 Virtuální domény a e-maily a mapování na unix uživatele
 
 ```
